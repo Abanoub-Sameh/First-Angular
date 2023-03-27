@@ -1,0 +1,19 @@
+form input , textarea{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    font-size: larger;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+form label{
+    opacity: .7;
+    font-size: larger;
+    padding-top: 5px;
+}
+.btn:hover{
+    background-color: #1d927b;
+    
+}

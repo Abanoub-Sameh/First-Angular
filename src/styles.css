@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-family: 'Lato', sans-serif !important;
+}
+:root{
+    --main-color:#1abc9c;
+    --second-color:#2c3e50;
+}
+.bg-main{
+    background-color: var(--main-color);
+}
+.bg-second{
+    background-color: var(--second-color);
+}
+.text-main{
+    color: var(--main-color);
+}
+.text-second{
+    color: var(--second-color);
+}
+
+.w-star{
+    width: 120px;
+    height: 4px;
+    background-color: white;
+    margin: auto;
+    margin-inline: 15px;
+    border-radius: 1rem;
+}
+.b-star{
+    width: 120px;
+    height: 4px;
+    background-color: var(--second-color);
+    margin: auto;
+    margin-inline: 15px;
+    border-radius: 1rem;
+}

@@ -1,0 +1,36 @@
+<section class="py-5">
+    <div class="text-center text-second pt-5 mt-5">
+        <h2 class="fw-bolder h1 fa-3x">CONTACT ME</h2>
+        <div class="d-flex mb-3 justify-content-center">
+            <div class="b-star"></div>
+            <i class=" fa-solid fa-star fa-2x"></i>
+            <div class="b-star"></div>
+        </div>
+    </div>
+    <div class="container row mx-auto justify-content-center align-items-center flex-column">
+        <form class=" col-lg-8" (submit)="relode($event)">
+            <div class="form-floating mb-3 lg">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Name">
+                <label for="floatingInput">Name</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="tel" class="form-control" id="floatingPassword" placeholder="Phone">
+                <label for="floatingPassword">Phone</label>
+            </div>
+            <div class="form-floating mb-3">
+                <textarea class="form-control" placeholder="Message" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Message</label>
+            </div>
+            <button class="bg-main btn text-white p-3" type="submit">Send</button>
+        </form>
+    </div>
+   
+</section>

@@ -1,0 +1,18 @@
+
+.icons a{
+    position: relative;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 10px;
+}
+.icons a i{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+}
